@@ -1,0 +1,29 @@
+{
+  "name": "authapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm",
+    "dev": "nodemon -r esm ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "alialnaghmoush"
+  },
+  "author": "Ali AlNaghmoush",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
